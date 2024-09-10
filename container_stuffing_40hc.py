@@ -271,7 +271,7 @@ def generate_report(data, weight_classes, selected_volume_class, include_cost=Tr
     return report, unfulfilled_report
 
 # Streamlit UI code
-st.title('Container Stuffing Optimization')
+st.title('40 High Cube Container Stuffing')
 uploaded_file = st.file_uploader("Choose a file", type=['csv', 'xlsx'])
 
 if uploaded_file:
