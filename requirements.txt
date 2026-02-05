@@ -1,8 +1,9 @@
 numpy
 pandas
 ortools
-streamlit
 datetime
 xlsxwriter
 flask
 openpyxl
+streamlit>=1.31.0
+protobuf>=4.25,<5
